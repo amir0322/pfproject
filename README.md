@@ -30,8 +30,10 @@ Date when the transaction occurred.
 import pandas as pd
 df = pd.read_csv("cafesales.csv")
 ## 2.Explore Data: Examine the structure and content of the dataset.
-print(df.columns)  # Displays the names of the columns
-print(df.head())   # Displays the first few rows of the dataframe
+print(df.columns)
+Displays the names of the columns
+print(df.head())
+Displays the first few rows of the dataframe
 ## Data Analysis: Perform various analyses, such as:
 Total sales over time.
 Item popularity based on quantity sold.
